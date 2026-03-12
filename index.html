@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Global Weather Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="bgVideo">
+<source src="" type="video/mp4">
+</video>
+
+<div class="container">
+
+<h1>🌍 Global Weather Dashboard</h1>
+
+<div class="searchBox">
+
+<input type="text" id="cityInput" placeholder="Enter City / District">
+
+<button onclick="getWeather()">Search</button>
+
+</div>
+
+<div id="weatherBox"></div>
+<h2 id="forecastTitle" class="forecastTitle" style="display:none;">
+Next 7 Days Data
+</h2>
+
+<div id="forecast"></div>
+<div id="forecast"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
